@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AddView.swift
 //  TodoApp-Swiftui
 //
 //  Created by Anup Saud on 2024-08-09.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AddView: View {
     var body: some View {
-        NoListView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    AddView()
 }
